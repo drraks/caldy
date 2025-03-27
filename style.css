@@ -110,3 +110,13 @@ main{
     color: rgba(0, 0, 0, 0.438);
     font-size: 0.85vw;
 }
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.card-one{
+    height: 170px;
+    width: 19%;
+    background-color: black;
+    border-radius: 20px;
+}
