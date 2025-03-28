@@ -113,10 +113,113 @@ main{
 .footer{
     display: flex;
     justify-content: space-between;
+    align-items: end;
+    padding-bottom: 30px;
 }
-.card-one{
-    height: 170px;
+.card-one,.card-five{
+    height: 28vw;
+    width: 20%;
+    background-color: black;
+    border-radius: 22px;
+    padding: 15px;
+}
+.card-two,.card-four{
+    height: 20vw;
     width: 19%;
     background-color: black;
+    border-radius: 22px;
+    padding: 10px;
+}
+.card-three{
+    height: 12vw;
+    width: 19%;
+    background-color: black;
+    border-radius: 22px;
+    padding: 10px;
+}
+.card-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-two{
+    background: url(assets/person.png) center center no-repeat;
+    background-size: cover;
+}
+.card-five{
+    background: url(assets/coffe.png) center center no-repeat;
+    background-size: cover;
+}
+.card-three{
+    background-color: #b0dad3;
+}
+.card-four{
+    background-color: #DDBAEA;
+}
+.data{
+    color: white;
+    font-size: 30px;
+}
+.one-text{
+    color: rgba(255, 255, 255, 0.589);
+    font-weight: 100;
+}
+.one-inner-date{
+    height: 5.5vw;
+    width: 100%;
+    background-color: #252528;
     border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.numbers{
+    display: flex;
+    color: #AFAFB6;
+    text-align: center;
+    align-items: center;
+}
+.tue{
+    background-color: #c8cbd04d;
+    padding: 17px;
+    border-radius: 20px;
+}
+.title{
+    font-size: 13px;
+}
+#padding{
+    margin: 0px 13px;
+}
+#color{
+    color: white;
+}
+.mission{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.time{
+    color: #C8CBD0;
+}
+.tasks,.tasks-white{
+    height: 3.9vw;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #252528;
+    border-radius: 20px;
+    padding: 10px;
+}
+.tasks-white{
+    background-color: #AFC9C5;
+}
+#color-tasks{
+    color: #AFAFB6;
+}
+.meet{
+    font-size: 1.2vw;
 }
